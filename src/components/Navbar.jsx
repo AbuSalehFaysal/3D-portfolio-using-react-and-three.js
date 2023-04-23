@@ -22,7 +22,12 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            Abu Saleh Faysal{" "}
+            {/* <span className="sm:block hidden">| Software Engineer</span> */}
+          </p>
         </Link>
+        <p className="text-red-500">kjsafdjksd</p>
       </div>
     </nav>
   );
